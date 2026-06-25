@@ -143,28 +143,25 @@ header {
   letter-spacing: -0.04em;
 }
 
-.hero-home {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 32px;
-  align-items: center;
-  min-height: 72vh;
-  text-align: left;
+.hero-home{
+    display:grid;
+    grid-template-columns:60% 40%;
+    align-items:center;
+    gap:60px;
 }
 
 .hero-home h1 {
-  font-size: clamp(2.8rem, 5vw, 5.8rem);
-  line-height: 0.95;
-  margin: 0 0 22px;
-  max-width: none;
-  white-space: nowrap;
-  letter-spacing: -0.06em;
+    font-size: 5rem;
+    line-height: 0.95;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    letter-spacing: -3px;
 }
 
 .hero-home p {
   color: var(--muted);
-  font-size: 1.18rem;
-  max-width: 44rem;
+  font-size:1.05rem;
+  max-width:600px;
   margin: 0 0 30px;
 }
 
